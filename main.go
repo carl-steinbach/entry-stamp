@@ -31,7 +31,7 @@ func main() {
 
 	err = yaml.Unmarshal(configFile, &config)
 	if err != nil {
-		fmt.Printf("Could not read config file. %s", err)
+		fmt.Printf("Konnte Config Datei nicht lesen, bitte sicherstellen das eine Datei 'config.yaml' im Format der 'example_config.yaml' im selben Verzeichnis existiert. %s", err)
 	}
 
 	// Command line arguments.
