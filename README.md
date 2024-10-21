@@ -22,12 +22,12 @@ Es stehen folgende Optionen zur Verfügung:
 Beispielaufruf mit Optionen:
 
     stamp.exe -Datum 2024-10-19 -Größe 44
-    -> Stempel unter '/Users/user/entry-stamp/eingangsstempel_19_10_2024.png' gespeichert.
+    -> Stempel unter '/Users/<user>/eingangsstempel_19_10_2024.png' gespeichert.
 
 
 ## Kompilieren
 
-Um das programm zu kompilieren muss `go build` verwendet werden, die optionale `-o` flag gibt den Namen der Executable an.
+Um das Programm zu kompilieren muss `go build` verwendet werden, mit der optionalen `-o` Option, kann der Name der Datei gewählt werden.
 Dazu muss Golang installiert sein, und der gesamte Projektordner installiert sein. 
 
     go build -o stamp.exe   // Windows
