@@ -28,4 +28,5 @@ config.yaml
 *.png
 *.html
 *.pdf
+entry-stamp
 stamp

@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// Command line arguments.
-	flag.IntVar(&fontSize, "Größe", 18, "Die verwendete Schriftgröße.")
+	flag.IntVar(&fontSize, "Größe", 32, "Die verwendete Schriftgröße.")
 	flag.StringVar(&dateString, "Datum", time.Now().Format(time.DateOnly), "Das verwendete Datum im Format 'YYYY-MM-DD'; Ist automatisch als heutiges Datum konfiguriert.")
 	flag.Parse()
 
